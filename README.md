@@ -54,6 +54,7 @@ Create Account for that token:
 spl-token create-account <Token_Address>
 ```
 You will get a Recipent Address also, store that address.
+
 Generate tokens:
 ```bash
 spl-token mint <Token_Address> 100
