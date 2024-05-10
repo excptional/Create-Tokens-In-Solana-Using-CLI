@@ -44,5 +44,23 @@ Install spl:
 ```bash
 cargo install spl-token-cli
 ```
+Create token:
+```bash
+spl-token create-token
+```
+You will get a token address, store that address.
+Create Account for that token:
+```bash
+spl-token create-account <Token_Address>
+```
+You will get a Recipent Address also, store that address.
+Generate tokens:
+```bash
+spl-token mint <Token_Address> 100
+```
+Now, you can check the balance:
+```bash
+spl-token balance <Token_Address>
+```
 
 
