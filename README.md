@@ -5,17 +5,23 @@ This README provides a step-by-step guide on how to create tokens on the Solana 
 
 ## Steps
 ### 1.Install Rust Programming Language:
-```bash
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
+Download [Rust](https://www.rust-lang.org/tools/install) and install the .exe file.
+
 Check installed or not:
 ```bash
 rustc --version
 ```
 ### 2.Install Solana:
+Open a Command Prompt (cmd.exe) as an Administrator and run these commands
 ```bash
-sh -c "$(curl -sSfL https://release.solana.com/v1.18.12/install)"
+cmd /c "curl https://release.solana.com/v1.18.12/solana-install-init-x86_64-pc-windows-msvc.exe --output C:\solana-install-tmp\solana-install-init.exe --create-dirs"
 ```
+```bash
+C:\solana-install-tmp\solana-install-init.exe v1.18.12
+```
+When the installer is finished, press Enter.
+Close the command prompt window and re-open a new command prompt window as a normal user
+
 ⭐ Importantly, update your PATH environment variable
 
 ### 3.Generate your Public Key and Key-pair path:
