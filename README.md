@@ -22,8 +22,6 @@ C:\solana-install-tmp\solana-install-init.exe v1.18.12
 When the installer is finished, press Enter.
 Close the command prompt window and re-open a new command prompt window as a normal user
 
-⭐ Importantly, update your PATH environment variable
-
 ### 3.Generate your Public Key and Key-pair path:
 ```bash
 solana-keygen --new
