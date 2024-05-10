@@ -2,7 +2,7 @@
 
 Install curl:
 ```bash
-sudo apt  install curl  # version 7.88.1-8ubuntu2.3
+sudo apt install curl
 ```
 Install Rust Programming Language:
 ```bash
